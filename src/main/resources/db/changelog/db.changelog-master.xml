@@ -5,9 +5,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <!-- Changeset for the users table -->
     <include file="db/changelog/changeset-01-users.xml"/>
-
-    <!-- Changeset for item_types table -->
     <include file="classpath:db/changelog/changeset-02-item-types.xml"/>
+    <include file="classpath:db/changelog/changeset-03-items.xml"/>
 </databaseChangeLog>
