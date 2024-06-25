@@ -1,4 +1,4 @@
-### ssl cert
+.env
 *.p12
 
 HELP.md
