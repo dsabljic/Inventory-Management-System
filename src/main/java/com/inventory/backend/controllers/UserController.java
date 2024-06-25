@@ -20,7 +20,6 @@ public class UserController {
         return ResponseEntity.ok(userManagementService.register(reg));
     }
 
-    // user creation alternative with custom status code
 //    @PostMapping("/auth/register")
 //    public ResponseEntity<UserDto> register(@RequestBody UserDto reg){
 //        UserDto response = userManagementService.register(reg);
@@ -40,7 +39,6 @@ public class UserController {
     @GetMapping("/admin/get-all-users")
     public ResponseEntity<UserDto> getAllUsers(){
         return ResponseEntity.ok(userManagementService.getAllUsers());
-
     }
 
     @GetMapping("/admin/get-users/{userId}")
